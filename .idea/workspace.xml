@@ -9,26 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f4ab62e6-ba67-4433-b731-5808261386b2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/CurrencyApiService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/CurrencyConverterServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Index.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/maven/archetype.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/src/main/java/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/src/test/java/AppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/script.js" afterDir="false" />
-    </list>
+    <list default="true" id="f4ab62e6-ba67-4433-b731-5808261386b2" name="Changes" comment="new javascript code" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -67,38 +48,38 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Test.executor&quot;: &quot;Run&quot;,
-    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.CurrencyConvert [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.CurrencyConvert [compile].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.CurrencyConvert [deploy].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.CurrencyConvert [install].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.CurrencyConvert [package].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.CurrencyConvert [site].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.CurrencyConvert [test].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.CurrencyConvert [validate].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.CurrencyConvert [verify].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;TomEE Server.Unnamed.executor&quot;: &quot;Run&quot;,
-    &quot;Tomcat Server.Tomcat 9.0.90.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;18.12.0&quot;,
-    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;18.19.42&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Test.executor": "Run",
+    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "Maven.CurrencyConvert [clean].executor": "Run",
+    "Maven.CurrencyConvert [compile].executor": "Run",
+    "Maven.CurrencyConvert [deploy].executor": "Run",
+    "Maven.CurrencyConvert [install].executor": "Run",
+    "Maven.CurrencyConvert [package].executor": "Run",
+    "Maven.CurrencyConvert [site].executor": "Run",
+    "Maven.CurrencyConvert [test].executor": "Run",
+    "Maven.CurrencyConvert [validate].executor": "Run",
+    "Maven.CurrencyConvert [verify].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "TomEE Server.Unnamed.executor": "Run",
+    "Tomcat Server.Tomcat 9.0.90.executor": "Run",
+    "git-widget-placeholder": "master",
+    "javascript.nodejs.core.library.configured.version": "18.12.0",
+    "javascript.nodejs.core.library.typings.version": "18.19.42",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\HUAWEY_mb14\IdeaProjects\CurrencyConvert\src\main\webapp\js" />
@@ -226,12 +207,44 @@
       <workItem from="1726115976013" duration="3735000" />
       <workItem from="1726720614790" duration="3515000" />
       <workItem from="1727076729404" duration="4318000" />
-      <workItem from="1727325360145" duration="1131000" />
+      <workItem from="1727325360145" duration="1532000" />
     </task>
+    <task id="LOCAL-00001" summary="new javascript code">
+      <option name="closed" value="true" />
+      <created>1727326673108</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1727326673108</updated>
+    </task>
+    <task id="LOCAL-00002" summary="new javascript code">
+      <option name="closed" value="true" />
+      <created>1727326699599</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1727326699599</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="new javascript code" />
+    <option name="LAST_COMMIT_MESSAGE" value="new javascript code" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
