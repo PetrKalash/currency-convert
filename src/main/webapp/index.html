@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Конвертер валют</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <div class="container">
+            <form id="currency_form">
+                <div class="menu_convert">
+                    <div class="convert_item">
+                        <p>У меня есть</p>
+                        <ul class="menu_convert_items">
+                            <li><a href="#" id="RUB-from" class="currency-option">RUB</a></li>
+                            <li><a href="#" id="USD-from" class="currency-option">USD</a></li>
+                            <li><a href="#" id="EUR-from" class="currency-option">EUR</a></li>
+                        </ul>
+                        <label for="amount">
+                            <input type="number" id="amount" name="amount" class="menu_convert_input" value="30" required />
+                        </label>
+                    </div>
+
+                    <div class="convert_item">
+                        <p>Хочу приобрести</p>
+                        <ul class="menu_convert_items">
+                            <li><a href="#" id="RUB-to" class="currency-option">RUB</a></li>
+                            <li><a href="#" id="USD-to" class="currency-option">USD</a></li>
+                            <li><a href="#" id="EUR-to" class="currency-option">EUR</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <input type="hidden" id="from" name="from" value="RUB">
+                <input type="hidden" id="to" name="to" value="RUB">
+
+                <div class="button_container">
+                    <button type="submit" class="convert_button">Конвертировать</button>
+                </div>
+            </form>
+
+            <p id="result"></p>
+        </div>
+
+        <script src="js/script.js"></script>
+    </body>
+</html>

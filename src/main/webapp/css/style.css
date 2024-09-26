@@ -1,0 +1,66 @@
+* {
+    font-family: 'Circular', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 380px;
+    margin: 0 auto;
+}
+
+.menu_convert {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu_convert_items {
+    display: flex;
+    list-style: none;
+    margin-top: 5px;
+}
+
+.menu_convert_items a {
+    display: block;
+    padding: 5px;
+    text-decoration: none;
+    color: #333;
+    border: 1px solid #ccc;
+    background-color: white;
+}
+
+.menu_convert_items a:hover {
+    background-color: #e0e0e0;
+}
+
+.menu_convert_items a.selected {
+    background-color: #007bff;
+    color: white;
+    border-color: #007bff;
+}
+
+.menu_convert_input {
+    margin-top: 5px;
+    padding-bottom: 40px;
+}
+
+.menu_convert_input:focus {
+    outline: none;
+}
+
+.button_container {
+    text-align: center;
+}
+
+.convert_button {
+    width: 100%;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+    padding: 8px;
+    font-weight: 600;
+    margin-top: 10px;
+    background-color: #007bff;
+    color: white;
+}
