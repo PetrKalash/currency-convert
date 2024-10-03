@@ -13,6 +13,7 @@
 .menu_convert {
     display: flex;
     justify-content: space-between;
+    gap: 10px;
 }
 
 .menu_convert_items {
@@ -42,7 +43,10 @@
 
 .menu_convert_input {
     margin-top: 5px;
-    padding-bottom: 40px;
+    padding-bottom: 30px;
+    padding-left: 7px;
+    font-size: 28px;
+    max-width: 181px;
 }
 
 .menu_convert_input:focus {

@@ -17,8 +17,8 @@
                             <li><a href="#" id="USD-from" class="currency-option">USD</a></li>
                             <li><a href="#" id="EUR-from" class="currency-option">EUR</a></li>
                         </ul>
-                        <label for="amount">
-                            <input type="number" id="amount" name="amount" class="menu_convert_input" value="30" required />
+                        <label for="amount-from">
+                            <input type="number" id="amount-from" name="amount-from" class="menu_convert_input" value="30" required />
                         </label>
                     </div>
 
@@ -29,10 +29,13 @@
                             <li><a href="#" id="USD-to" class="currency-option">USD</a></li>
                             <li><a href="#" id="EUR-to" class="currency-option">EUR</a></li>
                         </ul>
+                        <label for="amount-to">
+                            <input type="number" id="amount-to" name="amount" class="menu_convert_input" readonly required />
+                        </label>
                     </div>
                 </div>
 
-                <input type="hidden" id="from" name="from" value="RUB">
+                <input type="hidden" id="from" name="from" value="USD">
                 <input type="hidden" id="to" name="to" value="RUB">
 
                 <div class="button_container">
