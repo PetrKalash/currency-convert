@@ -16,6 +16,20 @@
     gap: 10px;
 }
 
+.convert_item {
+    position: relative;
+}
+
+.number_substring {
+    font-family: 'Calibri', serif;
+    position: absolute;
+    top: 105px;
+    font-weight: 500;
+    font-size: 14px;
+    left: 10px;
+    color: gray;
+}
+
 .menu_convert_items {
     display: flex;
     list-style: none;

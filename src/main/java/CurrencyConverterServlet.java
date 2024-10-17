@@ -14,7 +14,7 @@ public class CurrencyConverterServlet extends HttpServlet {
 
         double amount = Double.parseDouble(amountStr);
         double rate = CurrencyApiService.getExchangeRate(from, to);
-        double result = amount * rate;
+        double result = Math.round(amount * rate * 10_000.0) / 10_000.0;
 
         resp.setContentType("text/html");
         resp.getWriter().write(String.valueOf(result));
